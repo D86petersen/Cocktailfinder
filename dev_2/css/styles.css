@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 3px solid #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+#search-button {
+  background: #333;
+  color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#clear-button {
+  background: #333;
+  color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background: #ccc;
+  color: #333;
+}
+
+#search-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#output-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #333;
+  height: 100%;
+}
+#error {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #333;
+  
+}
+.cocktail {
+  width: 100%;
+  max-width: 500px;
+  
+  margin: 3rem 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #ccc;
+  text-align: center;
+  background-color: #ccc;
+}
+.cocktail img {
+  width: 250px;
+
+}
+.cocktail:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #333;
+  
+}.cocktail p {
+  margin: 1rem 0;
+}
+
+#spotlight {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#spotlight img {
+  width: 250px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+#spotlight p {
+  margin: .5rem 0;
+  font-size: 1.2rem;
+}
+
+#spotlight ul {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+#spotlight-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  margin-top: 50px;
+  width: 80%;
+  height: 95%;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+footer {
+  position:fixed;
+  margin-top: 20px;
+  bottom:0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-top: 3px solid #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}

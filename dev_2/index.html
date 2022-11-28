@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktails Anyone?</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+
+    <!-- header and navigation -->
+    <header id="main-header">
+      <div class="topnav">
+        <h1>Cocktails Anyone?</h1>
+        <!-- form for user input -->
+        <form id="user-input">
+          <input
+            type="text"
+            placeholder="Search for a cocktail.."
+            id="search-input"
+            name="search"
+          />
+          <!-- button to submit user input -->
+          <button id="search-button" type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <!-- error output div -->
+      <div id="error"></div>
+
+      <!-- section for cocktail results -->
+      <section id="output-container">
+        <!-- output div -->
+        <div id="output">
+          <div id="output-name"></div>
+          <div id="output-img"></div>
+          <div id="output-instructions"></div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <p> &copy 2022 Created by Dustin Petersen</p>
+    </footer>
+
+    <!-- javascript files -->
+    <script src="request.js"></script>
+    <script src="functions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
